@@ -1,0 +1,30 @@
+{
+  "name": "modern-website-example",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --progress --config webpack.config.build.js",
+    "development": "webpack serve --progress --config webpack.config.development.js",
+    "start": "npm run development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipestscosta/Modern-Website-Example.git"
+  },
+  "author": "Felipe Costa",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.9.4",
+    "postcss-loader": "^8.2.0",
+    "sass": "^1.93.3",
+    "sass-loader": "^16.0.6",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1"
+  }
+}
