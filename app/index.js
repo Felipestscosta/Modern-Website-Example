@@ -1,1 +1,1 @@
-import imageOne from "./images/1.png";
+console.log("Hellow World");
